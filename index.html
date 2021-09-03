@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Roboto+Mono">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" type="text/css" href="framework/styles/index.css">
+        <link rel="icon" type="image/png" href="framework/images/scribear.png">
+        <title>ScribeAR</title>
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="container-fluid ps-4">
+                <a class="navbar-brand" href="#">ScribeAR</a>
+
+                <!-- navbar toggler button for mobile -->
+
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+
+                <!--<div class="collapse navbar-collapse" id="navbarNavAltMarkup"></div>-->
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#section-2">About us</a>
+                        <a class="nav-link" href="#section-3">Features</a>
+                        <a class="nav-link" href="#section-4">Blog</a>
+                        <a class="nav-link" href="#section-5">For Developers</a>
+                    </div>
+            </div>
+        </nav>
+
+         <!-- landing page spacing top -->
+        <div class="container" id="landing-top">
+            <div class="row">
+                <div class="my-5"></div>
+        <div class="container">
+            <div class="row">
+                <div class="my-4 pt-0"></div>
+            </div>
+        </div>
+
+        <!-- landing page text -->
+        <div class="container">
+            <div class="row" id="landing">
+                <div class="landing-text">
+                    <div class="col offset-md-2">
+                        <div class="typing-1">
+                            <h1>
+                                ScribeAR is practical. 
+                            </h1>
+                        </div>
+                        <div class="typing-2">
+                            <h1>
+                                ScribeAR is accesible. 
+                            </h1>
+                        </div>
+                        <div class="typing-3">
+                            <h1>
+                                ScribeAR is real-time. 
+                            </h1>
+                        </div>
+                        <div class="typing-4">
+                            <h1>
+                                ScribeAR is live captioning reimagined. 
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- landing page spacing bottom -->
+        <div class="container">
+            <div class="row">
+                <div class="my-5"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="my-4"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- down icon -->
+        <div class="down-button">
+            <div style="text-align: center" class="small-4 medium-4 large-4 columns";>
+                <a href="#section-1" role="button" class="btn btn-lg" style="background-color:transparent";>
+                    <i class="material-icons" style="font-size:48px;">expand_more</i>
+                </a>
+            </div>
+        </div>
+
+        <!-- try scribear section -->
+        <div class="p-5 mt-5 mb-0 bg-black" id="section-1">
+            <div class="row py-2">
+                <h1 class="display-5 fw-bold">Try ScribeAR</h1>
+                <div class="button-right";>
+                    <div style="text-align: left" class="small-4 medium-4 large-4 columns";>
+                        <div class="flexbox">
+                            <a href="https://scribear.illinois.edu/v/00005/" role="button" class="btn btn-lg pl-0" style="background-color:transparent";>
+                                <span id="flexbox-text">See it for yourself</span>
+                                <i class="material-icons" id="arrow-right" style="font-size: 18px; color:white";>arrow_forward_ios</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- about us section -->
+        <div class="p-5 mt-0 mb-0" style="background-color:#EEEEEE" id="section-2">
+            <div class="row py-2">
+                <span class="display-5 fw-bold">About Us</span>
+                <div class="button-right";>
+                    <div style="text-align: left" class="small-4 medium-4 large-4 columns";>
+                        <div class="flexbox">
+                            <button class="accordion" onclick="spin1()">
+                                <span id="flexbox-text" style="color:black; font-size: 20px;">Meet the team
+                                    <i class="material-icons" id="arrow-right-2" style="font-size: 18px; color:black";>arrow_forward_ios</i>
+                                </span>
+                            </button>
+                            <div class="panel" style="background-color:#EEEEEE">
+                                <div class="container px-4 pt-5" id="hanging-icons">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div>
+                                                <h2>What is ScribeAR?</h2>
+                                                <p>Designed with heads-up display technology in mind, ScribeAR is live transcription software that enables users of real-time captioning services to simultaneously maintain visual access to their environment. Integrated with automated speech recognition technologies, ScribeAR eliminates the need for expensive, third-party captioning services. A lightweight live-transcription platform designed with HTML5 to be platform agnostic, ScribeAR can be used on multiple devices and AR headsets.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div>
+                                                <h2>Our Team</h2>
+                                                <p>We are a team of undergraduate and graduate students working at the University of Illinois at Urbana-Champaign as a research group within the Grainger College of Engineering Computer Science department.</p>
+                                                <p>Interested in joining us? <a href="mailto:clualdi2@illinois.edu" id="email-link">Send us an email</a>. We can't wait to meet you!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- features section-->
+        <div class="p-5 mb-0" id=section-3>
+            <div class="row py-2">
+                <h2 class="display-5 fw-bold">Features</h2>
+                <div class="button-right";>
+                    <div style="text-align: left" class="small-4 medium-4 large-4 columns";>
+                        <div class="flexbox">
+                            <button class="accordion" onclick="spin2()">
+                                <span id="flexbox-text" style="color:black; font-size: 20px;">All the functionality you didn't know you needed
+                                    <i class="material-icons" id="arrow-right-3" style="font-size: 18px; color:black";>arrow_forward_ios</i>
+                                </span>
+                            </button>
+                            <div class="panel" style="background-color:white">
+                                <div class="container px-4 pt-5" id="hanging-icons">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div>
+                                                <h2>Any platform, any service, anywhere.</h2>
+                                                <p>Whether you’re choosing between software or hardware, ScribeAR meets you wherever you are. Conventional captioning? Augmented Reality capability? Universally accessible from any phone, tablet, or computer? Check, check, and check.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div>
+                                                <h2>Native integration makes choosing easy.</h2>
+                                                <p>With so many different captioning services out there, it can be overwhelming to have to try and find the right one. From Azure to WebSpeech, ScribeAR keeps all your captioning engines in one convenient place.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div>
+                                                <h2>The little things that aren't so little.</h2>
+                                                <p>Sound vizualization. Caption font customization. Edit and share tools. With so many ways to interact and personalize, ScribeAR makes your captions feel like your captions. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <i class="bi bi-headset-vr" style="font-size: 80px" id="vr-icon"></i>
+                                        <i class="bi bi-phone" style="font-size: 80px" id="phone-icon"></i>
+                                        <i class="bi bi-laptop" style="font-size: 80px" id="computer-icon"></i>
+                                    </div>
+                                    <div class="col-4">
+                                        <i class="bi bi-collection" style="font-size: 80px" id="collection-icon"></i>
+                                    </div>
+                                    <div class="col-4">
+                                        <i class="bi bi-gear-wide-connected" style="font-size: 80px" id="gear-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--blog section-->
+        <div class="p-5 mb-0" style="background-color:#EEEEEE" id=section-4>
+            <div class="row py-2">
+                <h2 class="display-5 fw-bold">Blog</h2>
+                <div class="button-right";>
+                    <div style="text-align: left" class="small-4 medium-4 large-4 columns";>
+                        <div class="flexbox">
+                            <a href="https://medium.com" role="button" class="btn btn-lg pl-0" style="background-color:transparent";>
+                                <span id="flexbox-text" style="color:black">Read about the work we're doing</span>
+                                <i class="material-icons" id="arrow-right" style="font-size: 18px; color:black";>arrow_forward_ios</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--for developers section-->
+        <div class="p-5 mb-0" style="background-color:black" id=section-5>
+            <div class="row py-2">
+                <h2 class="display-5 fw-bold" style="color:white">For Developers</h2>
+                <div class="button-right";>
+                    <div style="text-align: left" class="small-4 medium-4 large-4 columns";>
+                        <div class="flexbox">
+                            <button class="accordion" onclick="spin3()">
+                                <span id="flexbox-text" style="color:white; font-size: 20px;">Take a closer look
+                                    <i class="material-icons" id="arrow-right-4" style="font-size: 18px; color:white";>arrow_forward_ios</i>
+                                </span>
+                            </button>
+                            <div class="panel" style="background-color:black; color:white;">
+                                <div class="row featurette pt-3">
+                                    <div class="col-md-2";>
+                                        <i class="bi bi-file-earmark-text" style="font-size:70px" id="file-icon"></i>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h2 class="featurette-heading">Research Paper. <span class="text-muted">ScribeAR: Design and Use of Augmented Reality Captioning for Inclusive Education Access.</span></h2>
+                                        <p class="lead">Want to learn more about our vision for ScribeAR? Check out <a href="https://drive.google.com/file/d/1mSck8iTf-nWZhfJP-M2R5j6qMQHvL_TW/view?usp=sharing" id="our-research-link">our research</a> and learn why we think ScribeAR's technology will revolutionize the way we think about captioning.</p>
+                                    </div>
+                                </div>
+                                <div class="row featurette pt-3";>
+                                    <div class="col-md-2";>
+                                        <i class="bi bi-github" style="font-size:70px" id="github-icon"></i>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h2 class="featurette-heading">Github. <span class="text-muted">Find the documentation you're looking for.</span></h2>
+                                        <p class="lead">Curious about the inner-workings of ScribeAR? <a href="https://github.com/scribear/ScribeAR.github.io" id="github-link">Our Github page</a> has you covered.</p>    
+                                    </div>
+                                </div>
+                                <div class="row featurette pt-3";>
+                                    <div class="col-md-2";>
+                                        <i class="bi bi-clock-history" style="font-size:70px" id="clock-icon"></i>
+                                    </div>
+                                    <div class="col-md-10";>
+                                        <h2 class="featurette-heading;">Version history. <span class="text-muted">For compatability issues.</span></h2>
+                                        <p class="lead">
+                                            00004 – Microsoft Azure cognitive services compatibility <br>
+                                            00003 – Added sidebar and changed UI components <br>
+                                            00002 – Added visualizations <br>
+                                            00001 – ScribeAR original version <br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- page footer -->
+        <div class="container">
+            <footer class="py-0 my-4">
+              <p class="text-center text-muted">© 2021 University of Illinois Board of Trustees</p>
+            </footer>
+        </div>
+
+        <!-- javascript references-->
+        <script src="framework/script/index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </body>
+</html>
