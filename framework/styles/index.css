@@ -1,0 +1,243 @@
+html {
+    scroll-behavior: smooth;
+}
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+}
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) { 
+}
+body {
+    font-family:"Poppins", sans-serif;
+}
+#our-research-link:link {
+    color: white; 
+    background-color: transparent; 
+}
+#our-research-link:visited {
+    color: white; 
+    background-color: transparent; 
+}
+#github-link:link {
+    color: white;
+    background-color: transparent;
+}
+#github-link:visited {
+    color: white;
+    background-color: transparent;
+}
+#email-link:link {
+    color:black;
+    background-color: transparent;
+}
+#email-link:visited {
+    color:black;
+    background-color: transparent;
+}
+.navbar-brand {
+    font-size: 38px;
+    font-weight: bold;
+}
+.navbar-nav {
+    font-size: 18px;
+}
+.landing-text {
+    font-family: "Roboto Mono", sans-serif;
+
+}
+h1 {
+    display:flex;
+    background-color: black;
+    color: white;
+}
+.bg-black {
+    background-color: black;
+}
+.typing-1{
+    display:flex;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing-animation 3s steps(500);
+    animation-fill-mode: forwards;
+}
+.typing-2 {
+    display:flex;
+    overflow: hidden;
+    white-space: nowrap;
+    opacity:0;
+    animation: typing-animation-2 3s steps(500);
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+.typing-3 {
+    display:flex;
+    overflow: hidden;
+    white-space: nowrap;
+    opacity:0;
+    animation: typing-animation-3 3s steps(500);
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+.typing-4 {
+    display:flex;
+    overflow: hidden;
+    white-space: nowrap;
+    opacity:0;
+    animation: typing-animation-4 3s steps(500);
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+@keyframes typing-animation {
+0%{width: 0%;}
+from {opacity:0;}
+1%{opacity:1;}
+to {opacity:1;}
+100%{width:100%;}
+}
+@keyframes typing-animation-2 {
+0%{width: 0%;}
+from {opacity:0;}
+1%{opacity:1;}
+to {opacity:1;}
+100%{width:100%;}
+}
+@keyframes typing-animation-3 {
+0%{width: 0%;}
+from {opacity:0;}
+1%{opacity:1;}
+to {opacity:1;}
+100%{width:100%;}
+}
+@keyframes typing-animation-4 {
+0%{width: 0%;}
+from {opacity:0;}
+1%{opacity:1;}
+to {opacity:1;}
+100%{width:100%;}
+}
+#section-1 {
+    border-radius: 0px;
+    margin-left: -72px;
+    margin-right: -72px;
+}
+#section-2 {
+    margin-left: -72px;
+    margin-right: -72px;
+}
+#section-3 {
+    margin-left: -72px;
+    margin-right: -72px;
+}
+#section-4 {
+    margin-left: -72px;
+    margin-right: -72px;
+}
+#section-5 {
+    margin-left: -72px;
+    margin-right: -72px;
+}
+#footer {
+    margin-left: -72px;
+    margin-right: -72px;
+}
+.down-button {
+    color:black;
+    opacity: 1;
+    animation: fade-in;
+    animation-iteration-count: 1;
+    animation-delay: 8s;
+    opacity:0;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    margin-top: 25px;
+}
+@keyframes fade-in {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+.button-right {
+    margin-left: -12px;
+}
+#flexbox-text {
+    float:left;
+    color:white;
+}
+#arrow-right {
+    float:right;
+    margin-top: 7px;
+    margin-left: 4px;
+}
+#arrow-right-2 {
+    float:right;
+    margin-top: 7px;
+    margin-left: 4px;
+}
+#arrow-right-3 {
+    float:right;
+    margin-top: 7px;
+    margin-left: 4px;
+}
+#arrow-right-4 {
+    float:right;
+    margin-top: 7px;
+    margin-left: 4px;
+}
+.accordion {
+    background-color:transparent;
+    color: transparent;
+    cursor: pointer;
+    padding: 18px;
+    width: fit-content;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+#file-icon {
+    float:left;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+#github-icon {
+    float:left;
+    margin-top: -15px;
+    margin-left: 100px;
+}
+#clock-icon {
+    float:left;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+#vr-icon {
+    margin-top: -100px;
+    margin-left: 80px;
+}
+#phone-icon {
+    margin-top: -100px;
+    margin-left: 0px;
+}
+#computer-icon {
+    margin-top: -100px;
+    margin-left: 0px;
+}
+#collection-icon {
+    margin-top: -100px;
+    margin-left: 175px;
+}
+#gear-icon {
+    margin-top: -100px;
+    margin-left: 125px;
+}             
